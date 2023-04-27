@@ -1,5 +1,5 @@
 function equal(){
-    document.getElementById('display').value = eval(display.value);
+    document.getElementById('display').value = eval('display.value');
 }
 function del(){
     let dele = display.value;
